@@ -1,0 +1,188 @@
+@import 'settings';
+@import 'foundation-emails';
+@import 'template/template';
+.wrapper{
+    &.with-bg-img--dark{
+        background-image: url(http://mailing.agrorural.gob.pe/assets/img/agro_tic__bg--dark.png);
+    }
+    &.with-bg-img--light{
+        background-image: url(http://mailing.agrorural.gob.pe/assets/img/agro_tic__bg--light.png);
+    }
+    &.with-bg-img--blue{
+        background-image: url(http://mailing.agrorural.gob.pe/assets/img/agro_tic__bg--blue.png);
+    }
+    &.super-header{
+        background: #000000;
+        .columns{
+            padding-bottom: 0;
+        }
+        p{
+            font-size: 9px;
+            color: #eee;
+            margin-bottom: 0;
+            a{
+                color: white;
+                &:hover{
+                    border-bottom: 1px solid rgba(white, 0.5);
+                }
+            }
+        }
+        .wrapper-inner {
+            padding: 7px; /*controls the height of the header*/
+        }
+        .container {
+            background: #555555;
+        }
+        &.secondary {
+            background: #f3f3f3;
+        }
+    }
+    &.header{
+        background-color: #323232;
+        .wrapper-inner {
+            padding: 24px 0 24px; /*controls the height of the header*/
+            .text-center{
+                font-size: 10px;
+                color: $primary-color;
+            }
+            .description{
+                font-size: 14px;
+                color: $small-font-color;
+            }
+        }
+    }
+    &.tips{
+        background-color: $primary-color;
+        .wrapper-inner {
+            padding: 32px 0 32px;
+            table.button table td{
+                background: $blue;
+            }
+        }
+    }
+    &.footer{
+        .wrapper-inner {
+            .container{
+                background: transparent;
+            }
+            padding: 0;
+            .social{
+                background: #fafafa;
+                .columns.last{
+                    padding-top: 16px;
+                }
+            }
+            .brand{
+                background: $light-gray;
+                .columns{
+                    padding-top: 32px;
+                }
+            }
+            .info{     
+                background: $light-gray;     
+                .columns{
+                    padding-bottom: 16px;
+                    padding-top: 16px;
+                    p{
+                        padding-top: 0px;
+                        font-size: 90%;
+                        a{
+                            color: $dark-gray;
+                        }
+                    }
+                    .menu{
+                        .menu-item{
+                            a{
+                                color: $dark-gray;
+                            }
+                            padding-bottom: 8px;
+                            padding-top: 0px;
+                           &.text-right{
+                                @media only screen and (max-width: #{$global-breakpoint}) {
+                                    text-align: center !important;
+                                }
+                                text-align: right !important;
+                                a{
+                                    font-size: 80%;
+                                    text-transform: uppercase;
+                                }
+                            } 
+                            &.text-left{
+                                @media only screen and (max-width: #{$global-breakpoint}) {
+                                    text-align: center !important;
+                                }
+                                text-align: left !important;
+                                a{
+                                    font-size: 90%;
+                                }
+                            } 
+                        }
+                        
+                    }
+                }
+            }
+            .copy{
+                    small{
+                        color: $white;
+                        opacity: .5;
+                    }
+            }
+        }
+    }
+}
+table.button{
+    table td a{
+        font-family: $header-font-family;
+        font-size: 100%;
+        text-transform: uppercase;
+    }
+}
+.post{
+    .tag{
+        font-size: 80%;
+        color: $medium-gray;
+        text-transform: uppercase;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .title{
+        font-size: 20px;
+        a{
+            color: $black;
+            &:hover{
+            color: $primary-color;
+            }
+        }
+    }
+    .read-more{
+        text-transform: uppercase;
+        font-size: 85%;
+    }
+    &.featured{
+        .title{
+            font-size: 30px;
+        }
+    }
+    .tips &{
+        .tag{
+            color: $blue;
+        }
+        .title{
+            font-size: 30px;
+            a{
+                color: $blue;
+                &:hover{
+                    color: $white;
+                    opacity: .85;
+                }
+            }
+        }
+        .subtitle{
+            font-size: 18px;
+            color: $white;
+        }
+        p>small{
+            color: $dark-gray;
+        }
+    }
+}

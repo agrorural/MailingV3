@@ -1,0 +1,42 @@
+global:
+  date:
+    year: "2018"
+    month:
+        int: "06"
+        start: "Junio"
+        end: "Junio"
+    day:
+      start: "20"
+      end: "21"
+  number: ""
+  name: "normas"
+
+posts:
+  has_posts: true
+  the_posts:
+    -
+      title: "DECRETO SUPREMO N° 012-2017-MINAGRI"
+      excerpt: "Decreto Supremo que declara de interés nacional la realización del Quincuagésimo Tercer Período de Sesiones del Consejo Internacional de las Maderas Tropicales (CIMT)..."
+      permalink: "http://epdoc2.elperuano.com.pe/EpPo/DescargaIN.asp?Referencias=MTU2MjY5NV80MjAxNzA5MDc="
+      image: "http://mailing.agrorural.gob.pe/2017/el-peruano/assets/img/normas__icon.jpg"
+      button_text: "Descargar documento"
+      date: "30/06/2018"
+    -
+      title: "RESOLUCION DIRECTORAL N° 385-2017-MINAGRI-DVDIAR-AGRO RURAL-DE"
+      excerpt: "Designan Sub Director de la Sub Dirección de la Unidad de Abastecimiento y Patrimonio de la Oficina de Administración de AGRO RURAL..."
+      permalink: "http://epdoc2.elperuano.com.pe/EpPo/DescargaIN.asp?Referencias=MTU2MjQ5NV8xMjAxNzA5MDc="
+      image: "http://mailing.agrorural.gob.pe/2017/el-peruano/assets/img/normas__icon.jpg"
+      button_text: "Descargar documento"
+      date: "01/07/2018"
+    -
+      title: "RESOLUCION DIRECTORAL N° 385-2017-MINAGRI-DVDIAR-AGRO RURAL-DE"
+      excerpt: "Designan Sub Director de la Sub Dirección de la Unidad de Abastecimiento y Patrimonio de la Oficina de Administración de AGRO RURAL..."
+      permalink: "http://epdoc2.elperuano.com.pe/EpPo/DescargaIN.asp?Referencias=MTU2MjQ5NV8xMjAxNzA5MDc="
+      image: "http://mailing.agrorural.gob.pe/2017/el-peruano/assets/img/normas__icon.jpg"
+      button_text: "Descargar documento"
+      date: "02/07/2018"
+
+
+button:
+  text: "Ver todas las normas"
+  url: "http://diariooficial.elperuano.pe/Normas"

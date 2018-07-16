@@ -1,0 +1,51 @@
+global:
+  year: "2018"
+  month:
+      int: "06"
+      str: "Junio"
+  day: "20"
+  number: "002"
+  name: "agrotic"
+  social:
+    -
+      title: "Síguenos en Facebook"
+      icon: "http://mailing.agrorural.gob.pe/assets/img/facebook__icon.png"
+      permalink: "https://www.facebook.com/AgroRuralFans"
+    -
+      title: "Siguenos en Twitter"
+      icon: "http://mailing.agrorural.gob.pe/assets/img/twitter__icon.png"
+      permalink: "http://twitter.com/agrorural"
+    -
+      title: "Siguenos en YouTube"
+      icon: "http://mailing.agrorural.gob.pe/assets/img/youtube__icon.png"
+      permalink: "https://www.youtube.com/user/pnmsperu"
+    -
+      title: "Síguenos en Google+"
+      icon: "http://mailing.agrorural.gob.pe/assets/img/google+__icon.png"
+      permalink: "https://plus.google.com/114270406491035256535"
+posts:
+  featured:
+    -
+      title: "Usa responsablemente tu correo institucional"
+      excerpt: "El correo electrónico es una herramienta de comunicación imprescindible para la realización de tus actividades en el trabajo. Por ello, en esta entrega la Unidad de Tecnologías de la Información te da algunos tips para proteger mejor tu cuenta de correo institucional."
+      area: ""
+      image: "http://mailing.agrorural.gob.pe/2018/06/20-agrotic-002/assets/img/agrotic--002.jpg"
+  tips:
+    title: "Tips para proteger tu bandeja de correo electrónico"
+    tip:
+      -
+        title: "No hagas clic en links sospechosos"
+        image: "http://mailing.agrorural.gob.pe/2018/06/20-agrotic-002/assets/img/tip--0.jpg"
+        excerpt: "Nunca solicitaremos por correo el cambio de claves. Si recibes un correo similar, procede a eliminarlo y dar cuenta a la UTI al anexo 4199."
+      -
+        title: "Usa tu correo solo para fines laborales"
+        image: "http://mailing.agrorural.gob.pe/2018/03/02-agrotic-001/assets/img/tip--1.jpg"
+        excerpt: "No uses tu cuenta de correo institucional como dirección electrónica alternativa para crear cuentas en diferentes servicios de correo web gratuitos."
+      -
+        title: "No abras ni contestes los correos no deseados"
+        image: "http://mailing.agrorural.gob.pe/2018/03/02-agrotic-001/assets/img/tip--3.jpg"
+        excerpt: "Cuando veas un correo nuevo, fíjate primero en el destinatario. No respondas ni mucho menos reenvíes correos cuyos destinatarios sean desconocidos."
+      -
+        title: "Ante la duda, siempre consulta con UTI"
+        image: "http://mailing.agrorural.gob.pe/2018/06/20-agrotic-002/assets/img/tip--4.jpg"
+        excerpt: "Si dudas de la veracidad de un correo que te pide dar clic en un enlace o brindar información, siempre puedes consultar a la UTI llamando al anexo 4199."

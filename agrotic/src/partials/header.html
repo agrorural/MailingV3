@@ -1,0 +1,33 @@
+<spacer size="32"></spacer>
+<container>
+    <wrapper class="super-header" bgcolor="#8a8a8a">
+        <row class="collapse">
+            <columns small="12" valign="middle">
+                <p class="text-center">¿NO SE MUESTRA CORRECTAMENTE? <a href="http://mailing.agrorural.gob.pe/{{email.global.year}}/{{email.global.month.int}}/{{email.global.day}}-{{email.global.name}}-{{email.global.number}}/index.html?utm_source=AgroTIC&utm_medium=email&utm_campaign={{email.global.year}}-{{email.global.month.int}}-{{email.global.day}}&utm_content=super_header">VER EN EL NAVEGADOR</a></p>
+            </columns>
+        </row>
+    </wrapper>    
+</container>
+
+<container>
+    <wrapper class="header with-bg-img--dark" bgcolor="#323232" background="http://mailing.agrorural.gob.pe/assets/img/agro_tic__bg.png">
+        <row>
+            <columns small="12" valign="middle">
+                <p class="text-right"><small>{{email.global.month.str}}, {{email.global.year}} | Nº {{email.global.number}}</small></p>
+            </columns>
+        </row>
+        <spacer size="16"></spacer>
+        <row>
+            <columns small="12" valign="middle">
+                <center>
+                    <img src="http://mailing.agrorural.gob.pe/assets/img/agro_tic__logo--without-text.png" style="width:350px">
+                </center>
+            </columns>
+        </row>
+        <row>
+            <columns small="12" valign="middle">
+                <h6 class="text-right description">{{subject}}</h6>
+            </columns>
+        </row>
+    </wrapper>
+</container>

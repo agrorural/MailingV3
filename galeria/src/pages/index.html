@@ -1,0 +1,35 @@
+---
+layout: index-layout
+subject: Inauguración Oficial del Campeonato AGRO RURAL 2018
+---
+
+<container>
+  {{#ifequal email.global.masshead true}}
+    <wrapper>
+        <img class="small-float-center" src="http://mailing.agrorural.gob.pe/{{email.global.date.year}}/{{email.global.date.month}}/{{email.global.date.day}}-{{email.global.type}}{{#ifequal email.global.number ""}}{{else}}-{{email.global.number}}{{/ifequal}}/assets/img/masshead.jpg" alt="">
+    </wrapper>
+  {{/ifequal}}
+
+  <spacer size="16"></spacer>
+
+  <row>
+    <columns>
+      
+      <spacer size="16"></spacer>
+      <center>
+      <button class="small-expanded success" href="http://mailing.agrorural.gob.pe/{{email.global.date.year}}/{{email.global.date.month}}/{{email.global.date.day}}-{{email.global.type}}{{#ifequal email.global.number ""}}{{else}}-{{email.global.number}}{{/ifequal}}/galeria.html" target="_blank">Ver galería de fotos</button>
+      </center>
+    </columns>
+  </row>
+
+  <spacer size="32"></spacer>
+
+  <row>
+    <columns>
+    <br>
+      <p>Atentamente,<br><br>
+
+      <strong>Dirección Adjunta \ Área de Imagen Institucional</strong></p>
+    </columns>
+  </row>
+</container>

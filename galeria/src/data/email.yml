@@ -1,0 +1,13 @@
+global:
+  date:
+    day: "16"
+    month: "07"
+    year: "2018"
+  number: ""
+  type: "galeria"
+  name: "Inauguración Oficial del Campeonato AGRO RURAL 2018"
+  masshead: true
+
+posts:
+  has_posts: true
+  the_posts: 8

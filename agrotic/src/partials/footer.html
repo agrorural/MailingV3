@@ -1,0 +1,47 @@
+<wrapper class="footer with-bg-img--blue">
+    <container>
+        <row class="collapsed social">
+            <columns small="12" valign="middle">
+                <center>
+                    <menu>
+                        {{#each email.global.social}}
+                            <item href="{{permalink}}"><img src="{{icon}}" alt="{{title}}"></item>
+                        {{/each}}
+                    </menu>
+                </center>
+            </columns>
+        </row>
+        <row class="brand">
+            <columns small="12" valign="middle">
+                <a href="http://www.agrorural.gob.pe?utm_source=AgroTIC&utm_medium=email&utm_campaign={{email.global.year}}-{{email.global.month.int}}-{{email.global.day}}&utm_content=footer_logo"><img class="small-float-center" src="http://mailing.agrorural.gob.pe/assets/img/agro_rural__logo.png"></a>
+            </columns>
+        </row>
+        <row class="info">
+            <columns small="12" large="6" valign="top">
+                <menu class="vertical site">
+                        <item class="text-left" href="https://goo.gl/maps/qivaPLbofEP2">Av. República de Chile 350, <br>Jesús María, PE 15072</item>
+                        <item class="text-left" href="tel:+5112058030">+511 205 8030</item>
+                    </menu>
+            </columns>
+            <columns small="12" large="6" valign="top">
+                <menu class="vertical apps">
+                    <item class="text-right" href="http://www.agrorural.gob.pe?utm_source=AgroTIC&utm_medium=email&utm_campaign={{email.global.year}}-{{email.global.month.int}}-{{email.global.day}}&utm_content=footer_info" target="_blank">Portal Web</item>
+                    <item class="text-right" href="http://intranet.agrorural.gob.pe/agronet?utm_source=AgroTIC&utm_medium=email&utm_campaign={{email.global.year}}-{{email.global.month.int}}-{{email.global.day}}&utm_content=footer_info" target="_blank">Intranet</item>
+                    <item class="text-right" href="http://yachay.agrorural.gob.pe?utm_source=AgroTIC&utm_medium=email&utm_campaign={{email.global.year}}-{{email.global.month.int}}-{{email.global.day}}&utm_content=footer_info" target="_blank">Aula Virtual</item>
+                </menu>
+            </columns>
+        </row>
+        <row class="collapsed copy">
+            <columns small="12" valign="middle">
+                <spacer size="16"></spacer>
+
+                <center>
+                    <small>Toda la información contenida en este mensaje es confidencial y de uso exclusivo de AGRO RURAL.<br>
+                        Si ha recibido este mensaje por error, por favor proceda a eliminarlo y notificar al remitente.</small>
+                </center>
+                
+                <spacer size="16"></spacer>
+            </columns>
+        </row>
+    </container>
+</wrapper>
