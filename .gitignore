@@ -3,3 +3,5 @@ comunicado
 especial
 participa
 .DS_Store
+*.prod.json
+*.test.json

@@ -1,0 +1,37 @@
+---
+layout: index-layout
+subject: Lanzamiento de NOTIAGRO TV
+---
+
+<container>
+  {{#ifequal email.global.masshead true}}
+    <wrapper>
+        <img class="small-float-center" src="http://mailing.agrorural.gob.pe/{{email.global.date.year}}/{{email.global.date.month}}/{{email.global.date.day}}-{{email.global.type}}{{#ifequal email.global.number ""}}{{else}}-{{email.global.number}}{{/ifequal}}/assets/img/masshead2.jpg" alt="">
+    </wrapper>
+  {{/ifequal}}
+
+  <spacer size="16"></spacer>
+
+  <row>
+    <columns>
+      <p>Estimados colaboradores:</p>
+      <p>Tenemos el agrado de compartir con ustedes la primera edición de <strong>“NOTIAGRO TV”</strong>, un micro noticiero semanal en donde difundiremos todas las actividades que realiza AGRO RURAL a favor de los hombres y mujeres del campo.</p>
+      <p>Mira y comparte este video en nuestra web y redes sociales: <strong>Facebook (Agro Rural)</strong> y <strong>Twitter (@agrorural)</strong>.</p>
+      <spacer size="16"></spacer>
+      <center>
+      <button class="small-expanded success" href="http://mailing.agrorural.gob.pe/{{email.global.date.year}}/{{email.global.date.month}}/{{email.global.date.day}}-{{email.global.type}}{{#ifequal email.global.number ""}}{{else}}-{{email.global.number}}{{/ifequal}}/galeria.html" target="_blank">Ver video</button>
+      </center>
+    </columns>
+  </row>
+
+  <spacer size="32"></spacer>
+
+  <row>
+    <columns>
+    <br>
+      <p>Atentamente,<br><br>
+
+      <strong>Dirección Adjunta \ Área de Imagen Institucional</strong></p>
+    </columns>
+  </row>
+</container>

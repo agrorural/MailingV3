@@ -1,0 +1,15 @@
+---
+layout: galeria-layout
+subject: Lanzamiento de NOTIAGRO TV
+---
+
+<container>
+    <row>
+        <columns small="12">
+          <spacer size="16"></spacer>
+          <h2 class="text-center">{{email.global.name}}</h2>
+          <video width="100%" height="350" controls><source src="http://mailing.agrorural.gob.pe/{{email.global.date.year}}/{{email.global.date.month}}/{{email.global.date.day}}-{{email.global.type}}{{#ifequal email.global.number ""}}{{else}}-{{email.global.number}}{{/ifequal}}/assets/video/video.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+        </columns>
+      </row>
+  <spacer size="32"></spacer>
+</container>

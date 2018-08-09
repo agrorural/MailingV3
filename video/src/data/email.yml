@@ -1,0 +1,13 @@
+global:
+  date:
+    day: "03"
+    month: "08"
+    year: "2018"
+  number: ""
+  type: "video"
+  name: "Lanzamiento de NOTIAGRO TV"
+  masshead: true
+
+posts:
+  has_posts: false
+  the_posts: null
